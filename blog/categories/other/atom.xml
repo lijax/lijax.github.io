@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Lijax on Github]]></title>
-  <link href="http://lijax.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Other | Lijax on Github]]></title>
+  <link href="http://lijax.github.com/blog/categories/other/atom.xml" rel="self"/>
   <link href="http://lijax.github.com/"/>
   <updated>2013-03-02T18:14:45+08:00</updated>
   <id>http://lijax.github.com/</id>
@@ -27,11 +27,11 @@
 
 <h2>Installed octopress</h2>
 
-<p>Installed octopress this afternoon. I thought it was a real dynamic blogging or CMS system just like wordpress. While I&#8217;m wrong. But I must admit it&#8217;s the perfect blogging system for programmer on github.</p>
+<p>Installed octopress this afternoon. I thought it was a real dynamic blogging or CMS system just like wordpress. While I'm wrong. But I must admit it's the perfect blogging system for programmer on github.</p>
 
-<p>I&#8217;m not a ruby coder and I don&#8217;t care about how it works. Just want use it to help me get familiar with github and markdown.</p>
+<p>I'm not a ruby coder and I don't care about how it works. Just want use it to help me get familiar with github and markdown.</p>
 
-<p>So let&#8217;s start blogging on github with markdown.</p>
+<p>So let's start blogging on github with markdown.</p>
 
 <h2>Test</h2>
 
@@ -48,7 +48,7 @@
 
 <h3>Code block test</h3>
 
-<figure class='code'><figcaption><span>sample.py (sample.py)</span> <a href='http://lijax.github.com/downloads/code/sample.py'>download</a></figcaption>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>sample.py (sample.py)</span> <a href='/downloads/code/sample.py'>download</a></figcaption>
  <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -177,8 +177,7 @@
 </span><span class='line'>
 </span><span class='line'><span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">&quot;__main__&quot;</span><span class="p">:</span>
 </span><span class='line'>    <span class="n">main</span><span class="p">()</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <h2>Works?</h2>
 
