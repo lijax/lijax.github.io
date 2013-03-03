@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: programing, | Lijax on Github]]></title>
-  <link href="http://lijax.github.com/blog/categories/programing-/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Sublime Text | Lijax on Github]]></title>
+  <link href="http://lijax.github.com/blog/categories/sublime-text/atom.xml" rel="self"/>
   <link href="http://lijax.github.com/"/>
-  <updated>2013-03-03T22:46:03+08:00</updated>
+  <updated>2013-03-03T22:50:55+08:00</updated>
   <id>http://lijax.github.com/</id>
   <author>
     <name><![CDATA[Lijax]]></name>
