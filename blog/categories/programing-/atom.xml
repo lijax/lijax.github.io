@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: programing, | Lijax on Github]]></title>
+  <link href="http://lijax.github.com/blog/categories/programing-/atom.xml" rel="self"/>
+  <link href="http://lijax.github.com/"/>
+  <updated>2013-03-03T22:41:19+08:00</updated>
+  <id>http://lijax.github.com/</id>
+  <author>
+    <name><![CDATA[Lijax]]></name>
+    <email><![CDATA[yeyanbo289@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Tools I used for markdown writing]]></title>
+    <link href="http://lijax.github.com/blog/2013/03/03/tools-i-used-for-markdown-writing/"/>
+    <updated>2013-03-03T21:13:00+08:00</updated>
+    <id>http://lijax.github.com/blog/2013/03/03/tools-i-used-for-markdown-writing</id>
+    <content type="html"><![CDATA[<h2>Editors</h2>
+
+<h3>Sublime Text and plugins on Linux</h3>
+
+<p><a href="http://www.sublimetext.com/" title="Sublime Text">Sublime Text</a> is an awesome text editor supporting almost all programming languages. It also support Windows and Mac including Linux. Some useful functions users love are <em>Goto Anything</em>, <em>Multiple Selections</em>, <em>Command Palette</em> and <em>Split Editing</em>, etc. While the most fantastic feature is its easy and elegant <a href="http://www.sublimetext.com/docs/2/api_reference.html" title="plugin API">plugin system</a> using JSON and python language and its open source [plugin community][SublimeTextPlugin].</p>
+
+<!-- more -->
+
+
+<p>So it can support markdown with highlight and there are some plugins make markdown writing much easier.</p>
+
+<p>List of markdown plugins:</p>
+
+<ul>
+<li><a href="https://github.com/revolunet/sublimetext-markdown-preview" title="Markdown Preview">Markdown Preview</a>: preview in browser.</li>
+<li><a href="http://ogom.github.com/sublimetext-markdown-slideshow" title="Markdown Slideshow">Markdown Slideshow</a>: markdown slideshow to Html5 slideshow.</li>
+<li><a href="https://github.com/tbfisher/sublimetext-Pandoc" title="Pandoc">Pandoc</a>: Pandoc integration in Sublime.</li>
+<li><a href="https://github.com/phyllisstein/Pandown" title="Pandown">Pandown</a>: Another Pandoc integration with more output support.</li>
+<li><a href="https://github.com/larlequin/PandocAcademic" title="Pandoc Academic">Pandoc Academic</a>: Another Pandoc integration with bibliography support.</li>
+</ul>
+
+
+<h3>Editors on other platforms</h3>
+
+<ul>
+<li>Windows: <a href="http://markdownpad.com/" title="MarkdownPad">MarkdownPad</a></li>
+<li>Chrome: <a href="https://chrome.google.com/webstore/detail/made/oknndfeeopgpibecfjljjfanledpbkog" title="MaDe Editor for markdown">MaDe</a></li>
+<li>Android: <a href="https://play.google.com/store/apps/details?id=com.jamesmc.writer" title="Writer">Writer</a> with Dropbox syncing.</li>
+</ul>
+
+
+<h2>Pandoc</h2>
+
+<p><a href="https://github.com/tbfisher/sublimetext-Pandoc" title="Pandoc">Pandoc</a> is a general markup converter. It can convert from one markup format to another and to DOCX, PDF, EPUB document. The blow network shows the supported markup formats and conversions. Pandoc allow you to write document in markdown and release it to any other format.</p>
+
+<p><img src="http://johnmacfarlane.net/pandoc/diagram.png" title="Pandoc Format" alt="PandocFormat" /></p>
+
+<!-- links -->
+
+
+
+
+<!-- images -->
+
+
+
+]]></content>
+  </entry>
+  
+</feed>
