@@ -1,0 +1,7 @@
+
+<!-- saved from url=(0063)https://raw.github.com/lijax/lijax.github.com/master/robots.txt -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;"># www.robotstxt.org/
+# http://code.google.com/web/controlcrawlindex/
+
+User-agent: *
+</pre></body></html>

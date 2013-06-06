@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>    Google Summer of Code 1
+</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+                    <link rel="stylesheet" href="http://blog.yeyanbo.com/theme/css/normalize.css">
+        <link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="http://blog.yeyanbo.com/theme/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://blog.yeyanbo.com/theme/css/main.css">
+        
+    <link rel="stylesheet" href="http://blog.yeyanbo.com/theme/css/blog.css">
+    <link rel="stylesheet" href="http://blog.yeyanbo.com/theme/css/github.css">
+                <link href="http://blog.yeyanbo.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="YeYanbo Atom Feed" />
+                        <script src="http://blog.yeyanbo.com/theme/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="wrapper">
+                <header id="sidebar" class="side-shadow">
+    <hgroup id="site-header">
+        <a id="site-title" href="http://blog.yeyanbo.com"><h1><i class="icon-coffee"></i> YeYanbo</h1></a>
+        <p id="site-desc"></p>
+    </hgroup>
+    <nav>
+        <ul id="nav-links">
+                                        <li><a href="http://blog.yeyanbo.com/pages/about.html">About</a></li>
+                                </ul>
+    </nav>
+    <footer id="site-info">
+    <p>
+        Proudly powered by <a href="http://getpelican.com/">Pelican</a> and <a href="http://python.org/">Python</a>. Theme by<a href="https://github.com/hdra/pelican-cait">hndr</a>.
+    </p>
+    <p>
+        Textures by <a href="http://subtlepatterns.com/">Subtle Pattern</a>. Font Awesome by <a href="http://fortawesome.github.io/Font-Awesome/">Dave Grandy</a>.
+    </p>
+</footer></header>
+    <div id="post-container">
+        <ol id="post-list">
+            <li>
+                <article class="post-entry">
+                    <header class="entry-header">
+                        <time class="post-time" datetime="2013-06-04T21:13:00" pubdate>
+                            Tue 04 June 2013
+                        </time>
+                        <a href="http://blog.yeyanbo.com/posts/google-summer-of-code-1.html" rel="bookmark"><h1>Google Summer of Code 1</h1></a>
+                    </header>
+
+                    <section class="post-content">
+                        <p>I'm very excited that I'm accepted for this year's <a href="http://www.google-melange.com/gsoc/homepage/google/gsoc2013">Google Summer of Code(GSOC)</a>. In recent days, I have been busy preparing my master's thesis and defense. This news is like good stress reliever for me. The project I'm going to work on is "<a href="http://informatics.nescent.org/wiki/Phyloinformatics_Summer_of_Code_2013#Phylogenetics_in_Biopython:_Filling_in_the_gaps">Phylogenetics in Biopython: Filling in the gaps</a>", which is to implement some phylogenetics algorithms for <a href="http://biopython.org/wiki/Main_Page">Biopython</a>. I believe it will be an exciting coding experience.</p>
+<h2>Get to Know GSOC</h2>
+<p>The first time I got to know the GSOC was from <a href="http://www.biojava.org">Biojava</a> homepage when I was trying to use Biojava for my own bioinformatics work. As I thought most of the applicants and biojava contributors might be from the computer background, I never had the courage to apply this. Last September, I got the chance to know Professor Allen and Karen when they were visiting our lab. And Karen told us more details about the GSOC and also the <a href="http://www.nescent.org/">NESCent</a>, and that they had been the mentoring organization for several years. I must say this finally inspired me to apply the GSOC this year.</p>
+<h2>Application</h2>
+<p>The application is certainly through the <a href="http://informatics.nescent.org/wiki/Phyloinformatics_Summer_of_Code_2013">Phyloinformatics Summer of Code</a> from NESCent. I originally wanted to apply the project of "Discovering links to ToLWeb content from a tree in the Open Tree of Life's software system". This project is based on several existing Java projects and also need some knowledge of HTML, XML, Javascript and Python. As my first programming language is Java and I know other related languages and techniques, this project is good for me. After the Biopython projects being added in, I found the current project was more suitable for me. Because most of the algorithms in this project are implemented in <a href="https://github.com/bigwiv/BlastGraph">BlastGraph</a>, a software I wrote in Java. I'm very familiar with those algorithms. Also, the former project has another applicant, while this one did not have any. As the project can only have one student and every student can only work on one project, maybe it's better to avoid the competition so that everyone can have a higher chance to be selected. Another major reason to choose this project is that I want to improve my python programming skill, which I use far less than Java before.</p>
+<h2>Project Description</h2>
+<p>As the name implies, this project is to implement some phylogenetic algorithms that are currently absent in the Biopython.Phylo package. In this package, some basic phylogenetics functions, such as tree operations, parsers for Newick, Nexus and PhyloXML, and wrappers for Phyml, Raxml and PAML, are already implemented. While there are some important components that remain to be filled in to better support phylogenetic workflows. These include simple tree construction algorithms, consensus tree searching, tree comparison and visualization. In this project, I will focus on the first two functions: tree construction and consensus tree searching. The tree construction part includes three algorithms: <a href="http://en.wikipedia.org/wiki/UPGMA">UPGMA</a>, <a href="http://en.wikipedia.org/wiki/Neighbor-joining">Neighbor Joining</a>, and <a href="http://en.wikipedia.org/wiki/Maximum_parsimony_(phylogenetics)">Maximum Parsimony</a>. And the consensus tree part includes another three: Strict, Majority-rule and Adams Consensus. So after this project, there will be two separate modules providing those algorithms in Biopython.Phylo package.</p>
+<h2>Works for the Next Two Weeks</h2>
+<p>The coding time will start on June 17. So during the next two weeks, I will read related source code in Biopython and trying to design two draft modules for both two parts.</p>
+                    </section>
+                    <hr/>
+                    <aside class="post-meta">
+                        <p>Category: <a href="http://blog.yeyanbo.com/category/computer-workgsoc.html">Computer Work,GSOC</a></p>
+                                                <p>Tags: <a href="http://blog.yeyanbo.com/tag/necent.html">necent</a>, <a href="http://blog.yeyanbo.com/tag/gsoc.html">GSOC</a>, </p>
+                                            </aside>
+                    <hr/>
+                    <div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'yeyanbo';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+                </article>
+            </li>
+        </ol>
+    </div>
+        </div>
+
+        <script>
+    var _gaq=[['_setAccount','UA-27029821-2'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+        <script src="http://blog.yeyanbo.com/theme/js/main.js"></script>
+    </body>
+</html>
