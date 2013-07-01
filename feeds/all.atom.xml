@@ -28,7 +28,17 @@
 &lt;h2&gt;Plan for this week&lt;/h2&gt;
 &lt;p&gt;Implement the UPGMA and NJ algorithms. This should be easy as I wrote both of them in Java before.&lt;/p&gt;
 &lt;h2&gt;Problems&lt;/h2&gt;
-&lt;p&gt;One common operation in both algorithms is to delete and insert elements in the DistanceMatrix object. This may cause unexpected error if there are other operations on the original DistanceMatrix object after any of the algorithm. I think one solution is to use the &lt;code&gt;deepcopy&lt;/code&gt; to make another copy of the DistanceMatrix object at the beginning of the algorithm. A little slower.&lt;/p&gt;</summary><category term="GSOC"></category><category term="biopython"></category><category term="distance matrix"></category><category term="distance calculation"></category></entry><entry><title>Google Summer of Code 2</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-2.html" rel="alternate"></link><updated>2013-06-16T09:35:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-06-16:posts/google-summer-of-code-2.html</id><summary type="html">&lt;p&gt;Coding period will begin next Monday. It's time to work. &lt;/p&gt;
+&lt;p&gt;One common operation in both algorithms is to delete and insert elements in the DistanceMatrix object. This may cause unexpected error if there are other operations on the original DistanceMatrix object after any of the algorithm. I think one solution is to use the &lt;code&gt;deepcopy&lt;/code&gt; to make another copy of the DistanceMatrix object at the beginning of the algorithm. A little slower.&lt;/p&gt;</summary><category term="GSOC"></category><category term="biopython"></category><category term="distance matrix"></category><category term="distance calculation"></category></entry><entry><title>Google Summer of Code 4</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-4.html" rel="alternate"></link><updated>2013-06-24T08:35:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-06-24:posts/google-summer-of-code-4.html</id><summary type="html">&lt;h1&gt;Last Week(6.24-6.30)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented the UPGMA and NJ algorithms(&lt;code&gt;DistanceTreeConstructor&lt;/code&gt;) by porting my Java code for those two.&lt;/li&gt;
+&lt;li&gt;Added test code in &lt;code&gt;test_TreeConstruction&lt;/code&gt; for both algorithms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;This week(7.1-7.7)&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Get more clear understanding of the parsimony methods for both DNA and protein sequences.&lt;/li&gt;
+&lt;li&gt;Design the parsimony score method and write document and tests for it;&lt;/li&gt;
+&lt;li&gt;Implement method to calculate the parsimony score for a given tree and an alignment;&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="GSOC"></category><category term="biopython"></category><category term="UPGMA"></category><category term="NJ"></category><category term="parsimony"></category></entry><entry><title>Google Summer of Code 2</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-2.html" rel="alternate"></link><updated>2013-06-16T09:35:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-06-16:posts/google-summer-of-code-2.html</id><summary type="html">&lt;p&gt;Coding period will begin next Monday. It's time to work. &lt;/p&gt;
 &lt;h2&gt;Tree construction module design&lt;/h2&gt;
 &lt;p&gt;The first task of this project is to implement a tree construction module providing three basic tree construction algorithms(UPGMA, NJ and MP). I'll name this module TreeConstruction. Classes design are as follows:&lt;/p&gt;
 &lt;ol&gt;
