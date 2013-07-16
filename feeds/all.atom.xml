@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Lijax</title><link href="http://blog.yeyanbo.com/" rel="alternate"></link><link href="http://blog.yeyanbo.com/feeds/all.atom.xml" rel="self"></link><id>http://blog.yeyanbo.com/</id><updated>2013-07-01T17:20:00+08:00</updated><entry><title>Google Summer of Code 4</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-4.html" rel="alternate"></link><updated>2013-07-01T17:20:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-07-01:posts/google-summer-of-code-4.html</id><summary type="html">&lt;h2&gt;Last Week(6.24-6.30)&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lijax</title><link href="http://blog.yeyanbo.com/" rel="alternate"></link><link href="http://blog.yeyanbo.com/feeds/all.atom.xml" rel="self"></link><id>http://blog.yeyanbo.com/</id><updated>2013-07-16T08:10:00+08:00</updated><entry><title>Google Summer of Code 5</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-5.html" rel="alternate"></link><updated>2013-07-16T08:10:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-07-16:posts/google-summer-of-code-5.html</id><summary type="html">&lt;h2&gt;Last Two Weeks(7.1-7.14)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Solved all problems about parsimony method with the help of Mark and redesigned all classes for this algorithm;&lt;/li&gt;
+&lt;li&gt;Implemented generic ParsimonyScorer accepting a scoring matrix for calculating parsimony score given a tree and an alignment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;This week(7.15-7.21)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Write test for ParsimonyScorer;&lt;/li&gt;
+&lt;li&gt;Implement NNI(Nearest Neighbor Interchanges) algorithm.&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="GSOC"></category><category term="biopython"></category><category term="maximum parsimony"></category></entry><entry><title>Google Summer of Code 4</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-4.html" rel="alternate"></link><updated>2013-07-01T17:20:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-07-01:posts/google-summer-of-code-4.html</id><summary type="html">&lt;h2&gt;Last Week(6.24-6.30)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Implemented the UPGMA and NJ algorithms(&lt;code&gt;DistanceTreeConstructor&lt;/code&gt;) by porting my Java code for those two.&lt;/li&gt;
 &lt;li&gt;Added test code in &lt;code&gt;test_TreeConstruction&lt;/code&gt; for both algorithms&lt;/li&gt;

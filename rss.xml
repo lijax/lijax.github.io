@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Lijax</title><link>http://blog.yeyanbo.com/</link><description></description><atom:link href="http://blog.yeyanbo.com/rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 01 Jul 2013 17:20:00 +0800</lastBuildDate><item><title>Google Summer of Code 4</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-4.html</link><description>&lt;h2&gt;Last Week(6.24-6.30)&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Lijax</title><link>http://blog.yeyanbo.com/</link><description></description><atom:link href="http://blog.yeyanbo.com/rss.xml" rel="self"></atom:link><lastBuildDate>Tue, 16 Jul 2013 08:10:00 +0800</lastBuildDate><item><title>Google Summer of Code 5</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-5.html</link><description>&lt;h2&gt;Last Two Weeks(7.1-7.14)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Solved all problems about parsimony method with the help of Mark and redesigned all classes for this algorithm;&lt;/li&gt;
+&lt;li&gt;Implemented generic ParsimonyScorer accepting a scoring matrix for calculating parsimony score given a tree and an alignment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;This week(7.15-7.21)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Write test for ParsimonyScorer;&lt;/li&gt;
+&lt;li&gt;Implement NNI(Nearest Neighbor Interchanges) algorithm.&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Yanbo Ye</dc:creator><pubDate>Tue, 16 Jul 2013 08:10:00 +0800</pubDate><guid>tag:blog.yeyanbo.com,2013-07-16:posts/google-summer-of-code-5.html</guid><category>GSOC</category><category>biopython</category><category>maximum parsimony</category></item><item><title>Google Summer of Code 4</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-4.html</link><description>&lt;h2&gt;Last Week(6.24-6.30)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Implemented the UPGMA and NJ algorithms(&lt;code&gt;DistanceTreeConstructor&lt;/code&gt;) by porting my Java code for those two.&lt;/li&gt;
 &lt;li&gt;Added test code in &lt;code&gt;test_TreeConstruction&lt;/code&gt; for both algorithms&lt;/li&gt;
