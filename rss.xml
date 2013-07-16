@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Lijax</title><link>http://blog.yeyanbo.com/</link><description></description><atom:link href="http://blog.yeyanbo.com/rss.xml" rel="self"></atom:link><lastBuildDate>Tue, 16 Jul 2013 08:10:00 +0800</lastBuildDate><item><title>Google Summer of Code 5</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-5.html</link><description>&lt;h2&gt;Last Two Weeks(7.1-7.14)&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Lijax</title><link>http://blog.yeyanbo.com/</link><description></description><atom:link href="http://blog.yeyanbo.com/rss.xml" rel="self"></atom:link><lastBuildDate>Tue, 16 Jul 2013 08:10:00 +0800</lastBuildDate><item><title>Google Summer of Code 5</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-5.html</link><description>&lt;p&gt;I was working on my future job and a bioinformatics course during last two weeks. So only few things have been finished. While, everything now works as plained, as I finished the NJ algorithm one week ahead of original schedule.&lt;/p&gt;
+&lt;h2&gt;Last Two Weeks(7.1-7.14)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Solved all problems about parsimony method with the help of Mark and redesigned all classes for this algorithm;&lt;/li&gt;
 &lt;li&gt;Implemented generic ParsimonyScorer accepting a scoring matrix for calculating parsimony score given a tree and an alignment.&lt;/li&gt;
