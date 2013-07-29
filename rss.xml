@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Lijax</title><link>http://blog.yeyanbo.com/</link><description></description><atom:link href="http://blog.yeyanbo.com/rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 21 Jul 2013 11:10:00 +0800</lastBuildDate><item><title>Google Summer of Code 6</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-6.html</link><description>&lt;h2&gt;Last Week(7.15-7.21)&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Lijax</title><link>http://blog.yeyanbo.com/</link><description></description><atom:link href="http://blog.yeyanbo.com/rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 29 Jul 2013 11:10:00 +0800</lastBuildDate><item><title>Google Summer of Code 7</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-7.html</link><description>&lt;h2&gt;Last Week(7.22-7.28)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented a &lt;code&gt;BitString&lt;/code&gt; class with binary manipulation methods in &lt;code&gt;Consensus&lt;/code&gt; module.&lt;/li&gt;
+&lt;li&gt;Finished &lt;code&gt;strict_consensus&lt;/code&gt; method using &lt;code&gt;BitString&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Wrote a method to import and convert protein substitution matrices from &lt;code&gt;SubsMat.MatrixInfo&lt;/code&gt; to &lt;code&gt;Matrix&lt;/code&gt; of nested list in &lt;code&gt;TreeConstruction&lt;/code&gt; module.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;This Week(7.29-8.2)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cleanup existing code, improve tests and document;&lt;/li&gt;
+&lt;li&gt;Write and submit mid-term evaluations.&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Yanbo Ye</dc:creator><pubDate>Mon, 29 Jul 2013 11:10:00 +0800</pubDate><guid>tag:blog.yeyanbo.com,2013-07-29:posts/google-summer-of-code-7.html</guid><category>GSOC</category><category>biopython</category><category>bitstring</category><category>strict consensus</category></item><item><title>Google Summer of Code 6</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-6.html</link><description>&lt;h2&gt;Last Week(7.15-7.21)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Rewrote and tested the ParsimonyScorer class with the combination of Fitch algorithm and Sankoff algorithm;&lt;/li&gt;
 &lt;li&gt;Implemented the NNITreeSearcher class for searching the best parsimony tree;&lt;/li&gt;
