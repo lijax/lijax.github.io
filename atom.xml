@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Lijax</title><link href="http://blog.yeyanbo.com/" rel="alternate"></link><link href="http://blog.yeyanbo.com/atom.xml" rel="self"></link><id>http://blog.yeyanbo.com/</id><updated>2013-07-29T11:10:00+08:00</updated><entry><title>Google Summer of Code 7</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-7.html" rel="alternate"></link><updated>2013-07-29T11:10:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-07-29:posts/google-summer-of-code-7.html</id><summary type="html">&lt;h2&gt;Last Week(7.22-7.28)&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lijax</title><link href="http://blog.yeyanbo.com/" rel="alternate"></link><link href="http://blog.yeyanbo.com/atom.xml" rel="self"></link><id>http://blog.yeyanbo.com/</id><updated>2013-08-05T11:10:00+08:00</updated><entry><title>Google Summer of Code 8</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-8.html" rel="alternate"></link><updated>2013-08-05T11:10:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-08-05:posts/google-summer-of-code-8.html</id><summary type="html">&lt;h2&gt;Last Week(7.29-8.4)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Fixed a small bug and improved the code structure of TreeConsruction module.&lt;/li&gt;
+&lt;li&gt;Improved documents and tests for TreeConsruction module.&lt;/li&gt;
+&lt;li&gt;Submitted mid-term evaluation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;This Week(8.5-8.11)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Write majority-rule consensus method;&lt;/li&gt;
+&lt;li&gt;Get clear understanding of adams consensus method and try to implement it.&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="GSOC"></category><category term="biopython"></category><category term="test"></category><category term="document"></category><category term="midterm"></category></entry><entry><title>Google Summer of Code 7</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-7.html" rel="alternate"></link><updated>2013-07-29T11:10:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-07-29:posts/google-summer-of-code-7.html</id><summary type="html">&lt;h2&gt;Last Week(7.22-7.28)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Implemented a &lt;code&gt;BitString&lt;/code&gt; class with binary manipulation methods in &lt;code&gt;Consensus&lt;/code&gt; module.&lt;/li&gt;
 &lt;li&gt;Finished &lt;code&gt;strict_consensus&lt;/code&gt; method using &lt;code&gt;BitString&lt;/code&gt;.&lt;/li&gt;
