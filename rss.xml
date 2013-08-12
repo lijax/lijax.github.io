@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lijax</title><link>http://blog.yeyanbo.com/</link><description></description><atom:link href="http://blog.yeyanbo.com/rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 05 Aug 2013 11:10:00 +0800</lastBuildDate><item><title>Google Summer of Code 8</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-8.html</link><description>&lt;h2&gt;Last Week(7.29-8.4)&lt;/h2&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lijax</title><link>http://blog.yeyanbo.com/</link><description></description><atom:link href="http://blog.yeyanbo.com/rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 12 Aug 2013 18:10:00 +0800</lastBuildDate><item><title>Google Summer of Code 9</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-9.html</link><description>&lt;h2&gt;Last Week(8.5-8.11)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add two new methods &lt;code&gt;independent&lt;/code&gt; and &lt;code&gt;iscompatible&lt;/code&gt; to &lt;code&gt;BitString&lt;/code&gt; class;&lt;/li&gt;
+&lt;li&gt;Improved &lt;code&gt;_count_clades&lt;/code&gt; method to store branch length as well and changed the &lt;code&gt;strict_consensus&lt;/code&gt; method accordingly;&lt;/li&gt;
+&lt;li&gt;Implemented majority-rule consensus method;&lt;/li&gt;
+&lt;li&gt;Wrote the first version of &lt;code&gt;adam_consensus&lt;/code&gt; method, not tested yet;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;This Week(8.12-8.18)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Complete the &lt;code&gt;adam_consensus&lt;/code&gt; method;&lt;/li&gt;
+&lt;li&gt;Improve test and document for consensus methods;&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Yanbo Ye</dc:creator><pubDate>Mon, 12 Aug 2013 18:10:00 +0800</pubDate><guid>tag:blog.yeyanbo.com,2013-08-12:posts/google-summer-of-code-9.html</guid><category>GSOC</category><category>biopython</category><category>majority rule consensus</category><category>adam consensus</category></item><item><title>Google Summer of Code 8</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-8.html</link><description>&lt;h2&gt;Last Week(7.29-8.4)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Fixed a small bug and improved the code structure of TreeConsruction module.&lt;/li&gt;
 &lt;li&gt;Improved documents and tests for TreeConsruction module.&lt;/li&gt;
