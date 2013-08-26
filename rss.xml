@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lijax</title><link>http://blog.yeyanbo.com/</link><description></description><atom:link href="http://blog.yeyanbo.com/rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 19 Aug 2013 15:30:00 +0800</lastBuildDate><item><title>Google Summer of Code 10</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-10.html</link><description>&lt;h2&gt;Last Week(8.12-8.18)&lt;/h2&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lijax</title><link>http://blog.yeyanbo.com/</link><description></description><atom:link href="http://blog.yeyanbo.com/rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 26 Aug 2013 11:30:00 +0800</lastBuildDate><item><title>Google Summer of Code 11</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-11.html</link><description>&lt;h2&gt;Last Week(8.19-8.25)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented the branch support method &lt;code&gt;get_support(target_tree, trees)&lt;/code&gt; for a target tree and a series of bootstrap replicate trees;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;This Week(8.26-9.1)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implement bootstrap method for MSA object;&lt;/li&gt;
+&lt;li&gt;Implement two interface methods for bootstrap trees and the final consensus tree.&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Yanbo Ye</dc:creator><pubDate>Mon, 26 Aug 2013 11:30:00 +0800</pubDate><guid>tag:blog.yeyanbo.com,2013-08-26:posts/google-summer-of-code-11.html</guid><category>GSOC</category><category>biopython</category><category>branch support</category></item><item><title>Google Summer of Code 10</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-10.html</link><description>&lt;h2&gt;Last Week(8.12-8.18)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Improved BitString documentation;&lt;/li&gt;
 &lt;li&gt;Fixed majority consensus bugs;&lt;/li&gt;
