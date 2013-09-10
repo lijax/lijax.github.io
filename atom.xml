@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Lijax</title><link href="http://blog.yeyanbo.com/" rel="alternate"></link><link href="http://blog.yeyanbo.com/atom.xml" rel="self"></link><id>http://blog.yeyanbo.com/</id><updated>2013-09-03T09:25:00+08:00</updated><entry><title>Google Summer of Code 12</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-12.html" rel="alternate"></link><updated>2013-09-03T09:25:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-09-03:posts/google-summer-of-code-12.html</id><summary type="html">&lt;h2&gt;Last Week(8.26-9.1)&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lijax</title><link href="http://blog.yeyanbo.com/" rel="alternate"></link><link href="http://blog.yeyanbo.com/atom.xml" rel="self"></link><id>http://blog.yeyanbo.com/</id><updated>2013-09-10T14:25:00+08:00</updated><entry><title>Google Summer of Code 13</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-13.html" rel="alternate"></link><updated>2013-09-10T14:25:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-09-10:posts/google-summer-of-code-13.html</id><summary type="html">&lt;h2&gt;Last Week(9.2-9.8)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tested tree construction methods on some real data;&lt;/li&gt;
+&lt;li&gt;Set 'identity' model as default and adapted to protein sequence as well in DistanceCalculator;&lt;/li&gt;
+&lt;li&gt;Improved the ParsimonyTreeConstructor and test.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;This Week(9.9-9.15)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Improve test and documentation for Consensus module;&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="GSOC"></category><category term="biopython"></category><category term="test"></category><category term="tree construction"></category></entry><entry><title>Google Summer of Code 12</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-12.html" rel="alternate"></link><updated>2013-09-03T09:25:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-09-03:posts/google-summer-of-code-12.html</id><summary type="html">&lt;h2&gt;Last Week(8.26-9.1)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Implemented bootstrap method for MSA object and two interface methods;&lt;/li&gt;
 &lt;li&gt;Restructured TreeConstructor classes to allow MSA independent of constructors;&lt;/li&gt;
 &lt;li&gt;Fix two bugs in &lt;code&gt;upgma&lt;/code&gt; and &lt;code&gt;nj&lt;/code&gt; algorithms.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;This Week(8.26-9.1)&lt;/h2&gt;
+&lt;h2&gt;This Week(9.2-9.8)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Test more on TreeConstruction module; Improve documentation;&lt;/li&gt;
 &lt;/ul&gt;</summary><category term="GSOC"></category><category term="biopython"></category><category term="bootstrap methods"></category><category term="tree construction"></category></entry><entry><title>Google Summer of Code 11</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-11.html" rel="alternate"></link><updated>2013-08-26T11:30:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-08-26:posts/google-summer-of-code-11.html</id><summary type="html">&lt;h2&gt;Last Week(8.19-8.25)&lt;/h2&gt;
