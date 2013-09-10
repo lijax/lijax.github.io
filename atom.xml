@@ -8,6 +8,7 @@
 &lt;h2&gt;This Week(9.9-9.15)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Improve test and documentation for Consensus module;&lt;/li&gt;
+&lt;li&gt;Cleanup all code&lt;/li&gt;
 &lt;/ul&gt;</summary><category term="GSOC"></category><category term="biopython"></category><category term="test"></category><category term="tree construction"></category></entry><entry><title>Google Summer of Code 12</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-12.html" rel="alternate"></link><updated>2013-09-03T09:25:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-09-03:posts/google-summer-of-code-12.html</id><summary type="html">&lt;h2&gt;Last Week(8.26-9.1)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Implemented bootstrap method for MSA object and two interface methods;&lt;/li&gt;
