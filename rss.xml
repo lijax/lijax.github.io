@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lijax</title><link>http://blog.yeyanbo.com/</link><description></description><atom:link href="http://blog.yeyanbo.com/rss.xml" rel="self"></atom:link><lastBuildDate>Tue, 10 Sep 2013 14:25:00 +0800</lastBuildDate><item><title>Google Summer of Code 13</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-13.html</link><description>&lt;h2&gt;Last Week(9.2-9.8)&lt;/h2&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lijax</title><link>http://blog.yeyanbo.com/</link><description></description><atom:link href="http://blog.yeyanbo.com/rss.xml" rel="self"></atom:link><lastBuildDate>Mon, 16 Sep 2013 11:20:00 +0800</lastBuildDate><item><title>Google Summer of Code 14</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-14.html</link><description>&lt;h2&gt;Last Week(9.2-9.8)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tested consensus methods on some real data;&lt;/li&gt;
+&lt;li&gt;Identified and fixed bugs of adam consensus method.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;This Week(9.9-9.15)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add examples and document on biopython wiki.&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Yanbo Ye</dc:creator><pubDate>Mon, 16 Sep 2013 11:20:00 +0800</pubDate><guid>tag:blog.yeyanbo.com,2013-09-16:posts/google-summer-of-code-14.html</guid><category>GSOC</category><category>biopython</category><category>adam consensus</category></item><item><title>Google Summer of Code 13</title><link>http://blog.yeyanbo.com/posts/google-summer-of-code-13.html</link><description>&lt;h2&gt;Last Week(9.2-9.8)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Tested tree construction methods on some real data;&lt;/li&gt;
 &lt;li&gt;Set 'identity' model as default and adapted to protein sequence as well in DistanceCalculator;&lt;/li&gt;

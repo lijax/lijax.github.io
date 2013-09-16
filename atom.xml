@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Lijax</title><link href="http://blog.yeyanbo.com/" rel="alternate"></link><link href="http://blog.yeyanbo.com/atom.xml" rel="self"></link><id>http://blog.yeyanbo.com/</id><updated>2013-09-10T14:25:00+08:00</updated><entry><title>Google Summer of Code 13</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-13.html" rel="alternate"></link><updated>2013-09-10T14:25:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-09-10:posts/google-summer-of-code-13.html</id><summary type="html">&lt;h2&gt;Last Week(9.2-9.8)&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Lijax</title><link href="http://blog.yeyanbo.com/" rel="alternate"></link><link href="http://blog.yeyanbo.com/atom.xml" rel="self"></link><id>http://blog.yeyanbo.com/</id><updated>2013-09-16T11:20:00+08:00</updated><entry><title>Google Summer of Code 14</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-14.html" rel="alternate"></link><updated>2013-09-16T11:20:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-09-16:posts/google-summer-of-code-14.html</id><summary type="html">&lt;h2&gt;Last Week(9.2-9.8)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tested consensus methods on some real data;&lt;/li&gt;
+&lt;li&gt;Identified and fixed bugs of adam consensus method.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;This Week(9.9-9.15)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Add examples and document on biopython wiki.&lt;/li&gt;
+&lt;/ul&gt;</summary><category term="GSOC"></category><category term="biopython"></category><category term="adam consensus"></category></entry><entry><title>Google Summer of Code 13</title><link href="http://blog.yeyanbo.com/posts/google-summer-of-code-13.html" rel="alternate"></link><updated>2013-09-10T14:25:00+08:00</updated><author><name>Yanbo Ye</name></author><id>tag:blog.yeyanbo.com,2013-09-10:posts/google-summer-of-code-13.html</id><summary type="html">&lt;h2&gt;Last Week(9.2-9.8)&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Tested tree construction methods on some real data;&lt;/li&gt;
 &lt;li&gt;Set 'identity' model as default and adapted to protein sequence as well in DistanceCalculator;&lt;/li&gt;
