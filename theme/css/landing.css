@@ -18,6 +18,10 @@ body {
     margin-top: 12px;
     margin-bottom: 12px; }
 
+#intro-copy {
+  text-align: center;
+}
+
 .centered-nav {
   text-align: center;
   padding: 0; }

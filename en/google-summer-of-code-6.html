@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>    Google Summer of Code 6
+</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+            <link rel="stylesheet" href="../theme/css/normalize.css">
+        <link href='//fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="../theme/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../theme/css/main.css">
+
+    <link rel="stylesheet" href="../theme/css/blog.css">
+    <link rel="stylesheet" href="../theme/css/github.css">
+        <link href="http://www.yeyanbo.com/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Lijax Atom Feed" />
+        <script src="../theme/js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div id="wrapper">
+<header id="sidebar" class="side-shadow">
+    <hgroup id="site-header">
+        <a id="site-title" href=".."><h1><i class="fa fa-coffee"></i> Lijax</h1></a>
+        <p id="site-desc"></p>
+    </hgroup>
+    <nav>
+        <ul id="nav-links">
+                <li><a href="../en">English</a></li>
+                <li><a href="../cn">Chinese</a></li>
+                <li><a href="../contact">Contact</a></li>
+        </ul>
+    </nav>
+<footer id="site-info">
+    <p>
+        Proudly powered by <a href="http://getpelican.com/">Pelican</a> and <a href="http://python.org/">Python</a>. Theme by<a href="https://github.com/hdra/pelican-cait">hndr</a>.
+    </p>
+</footer></header>
+    <div id="post-container">
+        <ol id="post-list">
+            <li>
+                <article class="post-entry">
+                    <header class="entry-header">
+                        <time class="post-time" datetime="2013-07-21T11:10:00" pubdate>
+                            日 21 七月 2013
+                        </time>
+                        <a href="../en/google-summer-of-code-6.html" rel="bookmark"><h1>Google Summer of Code 6</h1></a>
+                    </header>
+
+                    <section class="post-content">
+                        <h2>Last Week(7.15-7.21)</h2>
+<ul>
+<li>Rewrote and tested the ParsimonyScorer class with the combination of Fitch algorithm and Sankoff algorithm;</li>
+<li>Implemented the NNITreeSearcher class for searching the best parsimony tree;</li>
+<li>Restructured all parsimony classes and finished the ParsimonyTreeConstructor class.</li>
+</ul>
+<h2>This Week(7.22-7.28)</h2>
+<ul>
+<li>Write more tests for finished algorithms.</li>
+<li>Write a binary class that will be used for clade storing and counting in the consensus tree searching algorithms.</li>
+</ul>
+<h2>Sample Usage for Parsimony Tree</h2>
+<div class="highlight"><pre>    <span class="kn">from</span> <span class="nn">Bio</span> <span class="kn">import</span> <span class="n">AlignIO</span>
+    <span class="kn">from</span> <span class="nn">Bio</span> <span class="kn">import</span> <span class="n">Phylo</span>
+    <span class="kn">from</span> <span class="nn">Bio.Phylo.TreeConstruction</span> <span class="kn">import</span> <span class="n">Matrix</span>
+    <span class="kn">from</span> <span class="nn">Bio.Phylo.TreeConstruction</span> <span class="kn">import</span> <span class="n">ParsimonyScorer</span>
+    <span class="kn">from</span> <span class="nn">Bio.Phylo.TreeConstruction</span> <span class="kn">import</span> <span class="n">NNITreeSearcher</span>
+    <span class="kn">from</span> <span class="nn">Bio.Phylo.TreeConstruction</span> <span class="kn">import</span> <span class="n">ParsimonyTreeConstructor</span>
+
+    <span class="c"># alignment</span>
+    <span class="n">aln</span> <span class="o">=</span> <span class="n">AlignIO</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="nb">open</span><span class="p">(</span><span class="s">&#39;TreeConstruction/msa.phy&#39;</span><span class="p">),</span> <span class="s">&#39;phylip&#39;</span><span class="p">)</span>
+    <span class="c"># start tree</span>
+    <span class="n">tree</span> <span class="o">=</span> <span class="n">Phylo</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s">&#39;./TreeConstruction/upgma.tre&#39;</span><span class="p">,</span> <span class="s">&#39;newick&#39;</span><span class="p">)</span>
+
+    <span class="c">#create parsimony scorer from a penalty matrix</span>
+    <span class="n">alphabet</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;A&#39;</span><span class="p">,</span> <span class="s">&#39;T&#39;</span><span class="p">,</span> <span class="s">&#39;C&#39;</span><span class="p">,</span> <span class="s">&#39;G&#39;</span><span class="p">]</span>
+    <span class="n">penalty_matrix</span> <span class="o">=</span> <span class="p">[[</span><span class="mi">0</span><span class="p">],</span>
+                      <span class="p">[</span><span class="mf">2.5</span><span class="p">,</span>  <span class="mi">0</span><span class="p">],</span>
+                      <span class="p">[</span><span class="mf">2.5</span><span class="p">,</span>   <span class="mi">1</span><span class="p">,</span>   <span class="mi">0</span><span class="p">],</span>
+                      <span class="p">[</span>  <span class="mi">1</span><span class="p">,</span> <span class="mf">2.5</span><span class="p">,</span>  <span class="mf">2.5</span><span class="p">,</span> <span class="mi">0</span><span class="p">]]</span>
+    <span class="n">matrix</span> <span class="o">=</span> <span class="n">Matrix</span><span class="p">(</span><span class="n">alphabet</span><span class="p">,</span> <span class="n">step_matrix</span><span class="p">)</span>
+    <span class="n">scorer</span> <span class="o">=</span> <span class="n">ParsimonyScorer</span><span class="p">(</span><span class="n">matrix</span><span class="p">)</span>
+    <span class="c"># create tree searcher of Nearest Neighbor Interchange</span>
+    <span class="n">searcher</span> <span class="o">=</span> <span class="n">NNITreeSearcher</span><span class="p">(</span><span class="n">scorer</span><span class="p">)</span>
+    <span class="c"># create parsimony tree constructor</span>
+    <span class="n">constructor</span> <span class="o">=</span> <span class="n">ParsimonyTreeConstructor</span><span class="p">(</span><span class="n">aln</span><span class="p">,</span> <span class="n">searcher</span><span class="p">,</span> <span class="n">tree</span><span class="p">)</span>
+    <span class="c"># build the best parsimony tree</span>
+    <span class="n">best_tree</span> <span class="o">=</span> <span class="n">constructor</span><span class="o">.</span><span class="n">build_tree</span><span class="p">()</span>
+</pre></div>
+                    </section>
+                    <hr/>
+                    <aside class="post-meta">
+                        <p>Category: <a href="../category/computer-work.html">Computer Work</a></p>
+                        <p>Tags: <a href="../tag/gsoc.html">GSOC</a>, <a href="../tag/biopython.html">biopython</a>, <a href="../tag/maximum-parsimony.html">maximum parsimony</a>, <a href="../tag/consensus-tree.html">consensus tree</a>, </p>
+                    </aside>
+                    <hr/>
+<div class="comments">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'yeyanbo';
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+                </article>
+            </li>
+        </ol>
+    </div>
+        </div>
+
+<script>
+    var _gaq=[['_setAccount','UA-27029821-2'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+        <script src="../theme/js/main.js"></script>
+    </body>
+</html>
